@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  li {
+    @apply p-4
+  }
+  .backgr{
+    /* background: url(./Photos/Gradient.png), lightgray 50% / cover no-repeat; */
+  }
+
+  /* button {
+    @apply text-white border bg-indigo-600 border-gray-600
+    hover:bg-transparent hover:text-indigo-600 rounded-md
+  } */
+  .brdr{
+    border-radius: 25.64px;
+border: 0.916px solid var(--color-gray-200, #E5E7EB);
+background: #FFF;
+box-shadow: 0px 10.988px 36.628px 0.916px rgba(28, 25, 23, 0.05);
+  }
+  .gr{
+    background: linear-gradient(180deg, #D8B4FE -43.9%, rgba(216, 180, 254, 0.00) 172.76%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+}
